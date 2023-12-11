@@ -1,0 +1,82 @@
+body{
+    background-image: url(fundo.jpg);
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    display: flex;
+}
+body header #logo img{
+    width: 180px;
+}
+#logo{
+    width: 70%;
+}
+#menu{
+    width: 30%;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+}
+#menu ul li{
+    width: 150px;
+    margin: 10px;
+    text-align: center ;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#menu ul li:hover{ 
+    border: 1px solid #f00;
+    cursor: pointer;
+}
+
+body main h1{
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    text-align: left; 
+  }
+
+  label, input {
+    margin-bottom: 100px;
+  }
+
+  input[type="submit"] {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+  }
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background:#d7d7d7;
+    color:#000;
+    height: 15px;
+    text-align: center;
+    padding: 20px;
+}
