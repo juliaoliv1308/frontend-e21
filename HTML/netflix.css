@@ -4,6 +4,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 60px 46px 500px 150px rgba(0,0,0,35) inset;
+    padding: 0;
+    margin: 0;
+
 }
 header{
     display: flex;
@@ -52,23 +56,27 @@ main{
     text-align: center;
 }
 form {
-    max-width: 500px;
-    margin: 20px auto;
+    max-width: 700px;
+    margin: 4px auto;
     display: flex;
     text-align: left; 
   }
 
   label, input {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.98);
+    height: 50px;
+    border-radius: 10px;
   }
 
   input[type="submit"] {
     background-color: #e50914;
     color: #fff;
-    padding: 10px 15px;
+    padding: 25px 20px;
     border: none;
     cursor: pointer;
     display: inline-block;
+    height: 50px;
   }
 footer{
     position: absolute;
