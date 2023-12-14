@@ -2,24 +2,22 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-image: url(travel.jpg);
+    background-repeat: no-repeat;
+
 }
 
 header {
-    background-color:#75c6fc;
+    background-color: #75c6fc;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
 nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    color: #0900af;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s ease-in-out;
 }
 
 nav li {
@@ -29,7 +27,7 @@ nav li {
 
 main {
     text-align: center;
-    margin: 20px;
+    margin: 70px;
 }
 
 form {
@@ -44,6 +42,7 @@ form {
 label {
     display: block;
     margin-bottom: 8px;
+    color:#0900af;
 }
 
 input,
@@ -66,5 +65,18 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #faff5b;
+    color:#0900af
+}
+
+nav a {
+    text-decoration: none;
+    color: #0900af;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #dbf020;
 }
