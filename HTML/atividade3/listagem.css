@@ -65,7 +65,22 @@ th {
 tr:hover {
     background-color: #faff5b;
 }
-
+.editar{
+    color:#14478a;
+    width: 100%;
+}
+.editar:hover{
+    background: #e8f857;
+    color:#14478a;
+}
+.deletar{
+    color:#f00;
+    width: 100;
+}
+.deletar:hover{
+    background: #ff5050;
+    color:#0400ff
+}
 nav a {
     text-decoration: none;
     color: #0900af;
